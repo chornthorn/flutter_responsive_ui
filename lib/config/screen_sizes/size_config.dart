@@ -12,11 +12,10 @@ class SizeConfig {
     screenWidth = _mediaQueryData.size.width;
     screenHeight = _mediaQueryData.size.height;
     orientation = _mediaQueryData.orientation;
-    print(screenHeight);
-    print(screenWidth);
   }
 }
 
+// iPhone X ( height = 812.0 and width = 375.0)
 // Get the proportionate height as per screen size
 double getProportionateScreenHeight(double inputHeight) {
   double screenHeight = SizeConfig.screenHeight;
